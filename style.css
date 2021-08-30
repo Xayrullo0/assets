@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700;900&family=Rubik:wght@300;400;600;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: auto;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1,
+h3{
+    font-family: "Rubik", sans-serif;
+}
+
+
+/* Navbar */
+
+.navbar{
+    filter:drop-shadow(0px 0px 34px rgba(208, 208, 208, 0.4));
+    padding: 10px 0;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__logo{
+    display: flex;
+}
+
+.navbar__logo img{
+    width: 46px;
+    height: 46px;
+}
+
+
+.navbar__logo_robot,
+.navbar__logo_text{
+    text-transform: uppercase;
+    color: #343a40;
+}
+
+.navbar__logo_robot{
+    font-weight: 300;
+    font-size: .7rem;
+    margin-right: 8px;
+}
+
+.navbar__logo_text{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.navbar__links{
+    list-style: none;
+    display: flex;
+}
+
+.navbar__links li{
+    font-weight: normal;
+    font-size: .9rem;
+    line-height: 21px;
+    margin: 0 40px;
+}
+
+.navbar__links li a{
+    text-decoration: none;
+    color: #343a40;
+}
+
+.navbar__links li a:hover{
+    color: #3355ff;
+}
+
+.header{
+    height: 700px;
+    background: url(./Frame\ 86.png) no-repeat center center / cover ;
+}
+
+.header .container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header__text{
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    color: #343a40;
+    font-family: "Rubik" sans-serif;
+}
+
+.header__title{
+    font-weight: bold;
+    font-size: 74px;
+    line-height: 88px;
+    letter-spacing: 0.03em;
+    color: #343a40;
+}
+
+.header__try{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.header__btn{
+    padding: 18px 48.5px;
+    border: none;
+    background: #3355ff;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 24px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header__btn span{
+    margin-left: 8px;
+    font-size: 25px;
+}
+
+.header__use{
+    display: flex;
+}
+
+.header__use p{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #343a40;
+    margin-left: 8px;
+}
+
+/* Skills */
+
+.skills{
+    background: #fafafa;
+}
+
+.skills__top{
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.skills__top_box{
+    flex: 1;
+    margin: 24px;
+    padding: 45px 10px;
+    background: #fff;
+    box-shadow: 0px 0px 34px rgba(208, 208, 208, 0.4);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills__top_title{
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 50xp;
+    color: #343a40;
+    margin: 4px 0px;
+}
+
+.skills__topsubtitle{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #343a40;
+    margin: 4px 0px;
+}
+
+.our_skills_main_text {
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    color: #343A40;
+}
+
+.skills_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Our skills */
+
+.our_skills_box {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.our_skills_box .our_skills_boxes, .our_skills_title_box {
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.our_skills_text_content {
+    margin-bottom: 20px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+
+.our_skills_title {
+    font-family: 'Poppins', sans-serif;
+    width: 316px;
+    height: 30px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 164.6%;
+    letter-spacing: 0.01em;
+    color: #343A40;
+}
+
+.our_skills_subtitle {
+    width: 280px;
+    height: 84px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #343A40;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.our_skills_boxes img {
+    margin-bottom: -40px;
+    margin-left: 40px;
+    background: white;
+    padding: 21px;
+    width: 81px;
+    height: 81px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 34px rgba(208, 208, 208, 0.4);
+}
+
+.our_skills_title_box {
+    padding-top: 60px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0px 0px 34px rgba(208, 208, 208, 0.4);
+}
+
+.maintext{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.partners{
+    padding: 145px 0 100px;
+}
+
+.partners__content h3{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 50px;
+    color: #343a40;
+    margin-bottom: 16px;
+}
+
+.partners__content p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #343a40;
+}
+
+.partners__logos{
+    margin-left: 100px;
+    flex: 1;
+}
+
+.partners__logos .row:first-child{
+    align-items: flex-start;
+}
+
+.partners__logos .row:last-child{
+    align-items: flex-end;
+}
+
+.contact{
+    background: #fbfbfb;
+    padding: 100px 0;
+}
+
+.contact__content h3{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 50px;
+    color: #343a40;
+    margin: 16px 0;
+}
+
+.contact__content p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #343a40;
+    margin: 16px 0;
+}
+
+.contact__input ,
+.contact__textarea{
+    background: #edeeef;
+    border-radius:4px;
+    padding: 20px 24px;
+    border: 1px solid #e3e5e6;
+    box-sizing: border-box;
+    flex: 1;
+    margin: 19px 0;
+    outline: none;
+
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #343a40;
+}
+
+.contact__input:first-child{
+    margin-right: 24px;
+}
+
+.contact__textarea{
+    resize: none;
+    width: 100%;
+}
+
+.contact__input::placeholder,
+.contact__textarea::placeholder{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #808080;
+}
+
+.contact__text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #808080;
+}
+
+.contact_btn{
+    background: #1631b6;
+    border-radius: 4px;
+
+    font-style:normal ;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    margin: 0 8px;
+
+    padding: 18px 60.5px;
+    margin: 24px 0;
+    border: none;
+
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

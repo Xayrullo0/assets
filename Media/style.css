@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+}
+
+.box{
+    padding: 1rem;
+    margin: 1rem;
+    background: coral;
+    color: #fff;
+    transition: 2s;
+}
+
